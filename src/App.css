@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+  font-family: 'Cairo', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navbar{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 8px;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #2D3748;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#name{
+  padding-left: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#container{
+  display: flex;
+}
+
+#headers{
+  display: flex;
+}
+#headers>h2{
+  padding-right: 20px;
+}
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+#img{
+  height: 40px;
+  padding-right: 20px;
+  display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  #img{
+    display: block;
+    width: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  #navbar>div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
   }
+  #headers,#navbar{
+    flex-direction: column;
+  }
+  #headers{
+    height: 0px;
+    opacity: 0;
+    transition: all 0.5s ;
+  }
+  #headers.active{
+    height: 300px;
+    opacity: 1;
+  }
+
+
 }
