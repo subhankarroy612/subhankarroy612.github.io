@@ -77,14 +77,14 @@
   }
 }
 
-#home{
+#home {
   background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/23298a55526729.5988857400116.jpg);
   min-width: 100%;
   background-size: cover;
   background-position: center;
 }
 
-#typewriter{
+#typewriter {
   font-size: 25px;
   height: 50px;
 }
@@ -114,46 +114,53 @@
   #homeContainer {
     flex-direction: column;
   }
-  #homeContainer > div{
+
+  #homeContainer>div {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  #homeText{
+
+  #homeText {
     margin-top: 5vh;
   }
 }
 
-.projectText{
+.projectText {
   text-align: center;
 }
 
-#p1{
+.p1 {
   display: flex;
   width: 80%;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
   justify-content: space-between;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px 10px 10px 10px;
   margin-top: 8vh;
 }
-#p1>div>img{
-  width:100%;
+
+.p1>div>img {
+  width: 100%;
 }
-#p1>div:nth-child(1){
+
+.p1>div:nth-child(1) {
   width: 55%;
 }
-#p1>div:nth-child(2){
+
+.p1>div:nth-child(2) {
   width: 40%;
+  margin-top: 5vh;
 }
 
-.projectUl{
+.projectUl {
   font-size: 24px;
   line-height: 30px;
+  margin-top: 10px;
 }
 
-#p1Btn{
+.p1Btn {
   width: 60%;
   margin: auto;
   display: flex;
@@ -163,26 +170,123 @@
   padding-top: 10vh;
 }
 
-#p1Btn>button{
+.p1Btn>button {
   width: 150px;
   font-size: large;
+  border-radius: 10px 10px 10px 10px;
+  border: none;
+  background-color: orange;
 }
-#p1Btn>button>a{
+
+.p1Btn>button>a {
   text-decoration: none;
+  color: white;
+}
+
+.techStack {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+  margin-top: 20px;
+}
+
+.techStack>img {
+  width: 50px;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 @media screen and (max-width: 1200px) {
 
-  #p1{
+  .p1 {
     flex-direction: column;
   }
-  #p1>div:nth-child(1){
+
+  .p1>div:nth-child(1) {
     width: 100%;
-    border: 1px solid red;
-  }
-  #p1>div:nth-child(2){
-    width: 100%;
-    border: 1px solid red;
   }
 
+  .p1>div:nth-child(2) {
+    width: 100%;
+  }
+
+  .techStack {
+    margin: auto;
+    margin-top: 5vh;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .p1Btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .projectUl{
+    font-size: medium;
+  }
+
+  .p1>div>img{
+    height: 300px;
+  }
+
+}
+
+#project{
+  margin-bottom: 10vh;
+}
+
+#about{
+  background-image: url(https://getwallpapers.com/wallpaper/full/b/8/1/489068.jpg);
+  height: 74vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 15vh;
+}
+
+#about>div>h1{
+  text-align: center;
+}
+
+
+#about>div{
+  padding-top: 8vh;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+#about>div{
+  background-color: rgba(0, 128, 128, 0.635);
+  border-radius: 10px 10px 10px 10px ;
+  padding: 30px;
+  backdrop-filter: blur(3px);
+
+}
+
+@media screen and (max-width: 900px) {
+
+  #about>div>h1{
+    font-size: 24px;
+  }
+
+  #about>div>div>h2{
+    font-size: 18px;
+  }
+
+  #about{
+    padding-bottom: 10vh;
+  }
+}
+
+#skills{
+  text-align: center;
+}
+
+#skills>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

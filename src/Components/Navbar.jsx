@@ -18,7 +18,7 @@ export default function Navbar() {
             <h2><Link to='/skills' className='link'>Skills</Link></h2>
             <h2><Link to='/project' className='link'>Project</Link></h2>
             <h2><Link to='/contact' className='link'>Contact</Link></h2>
-            <h2><Link to='/resume' className='link'>Resume</Link></h2>
+            <h2><a style={{'textDecoration':'none', color:'white'}} target='_blank' href="https://drive.google.com/file/d/1N9dHJY8o54YHXhTfQYKGEIKOsIi2BtBe/view?usp=sharing">Resume</a></h2>
         </div>
     </div>)
 }

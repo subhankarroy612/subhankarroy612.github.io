@@ -13,6 +13,7 @@
     "framer-motion": "^7.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.3.4",
     "react-router-dom": "^6.4.2",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^4.0.5",
