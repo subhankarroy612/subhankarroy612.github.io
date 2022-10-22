@@ -76,9 +76,17 @@
     opacity: 1;
   }
 }
+
 #home{
-  border: 1px solid hsl(195, 26%, 46%);
-  background-color: hsl(195, 26%, 46%);
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/23298a55526729.5988857400116.jpg);
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+#typewriter{
+  font-size: 25px;
+  height: 50px;
 }
 
 #homeContainer {
@@ -86,8 +94,8 @@
   width: 80%;
   margin: auto;
   justify-content: space-around;
-  margin-top: 10vh;
-  margin-bottom: 24.2vh;
+  padding-top: 10vh;
+  padding-bottom: 24.2vh;
 }
 
 #homeContainer>div>img {
@@ -99,6 +107,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 @media screen and (max-width: 900px) {
@@ -113,4 +122,67 @@
   #homeText{
     margin-top: 5vh;
   }
+}
+
+.projectText{
+  text-align: center;
+}
+
+#p1{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 8vh;
+}
+#p1>div>img{
+  width:100%;
+}
+#p1>div:nth-child(1){
+  width: 55%;
+}
+#p1>div:nth-child(2){
+  width: 40%;
+}
+
+.projectUl{
+  font-size: 24px;
+  line-height: 30px;
+}
+
+#p1Btn{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 40px;
+  padding-top: 10vh;
+}
+
+#p1Btn>button{
+  width: 150px;
+  font-size: large;
+}
+#p1Btn>button>a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+  #p1{
+    flex-direction: column;
+  }
+  #p1>div:nth-child(1){
+    width: 100%;
+    border: 1px solid red;
+  }
+  #p1>div:nth-child(2){
+    width: 100%;
+    border: 1px solid red;
+  }
+
 }

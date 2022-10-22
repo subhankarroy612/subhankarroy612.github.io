@@ -1,4 +1,5 @@
 import React from 'react'
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function Home() {
   return (
@@ -10,7 +11,17 @@ export default function Home() {
         <div id='homeText'>
           <h2>Hi There!</h2>
           <h1>I'M SUBHANKAR ROY</h1>
-          <h2>MERN Stack Developer</h2>
+          <div id='typewriter'>
+            <Typewriter
+              loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+              words={["Web Developer.", "Full Stack Web Developer.", "MERN Stack Developer"]}
+            />
+          </div>
         </div>
       </div>
     </div>
