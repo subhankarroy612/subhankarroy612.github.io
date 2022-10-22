@@ -28,7 +28,7 @@ export default function Project() {
           <li className='projectUl'>Users can login and SignUp</li>
           <div className='p1Btn'>
             <button><a href="https://subhankar-boat-lifestyle.netlify.app" target='_blank' >Live</a></button>
-            <button><a href="https://github.com/subhankarroy612/funny-week-7983/tree/main/boat-lifestyle" target='_blank' >View Code</a> </button>
+            <button><a href="https://github.com/subhankarroy612/Boat-Lifestyle-Clone/tree/main/boat-lifestyle" target='_blank' >View Code</a> </button>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@ export default function Project() {
           <li className='projectUl'>User can see the products in the Home Page</li>
           <div className='p1Btn'>
             <button><a href="https://enchanting-hamster-bb6be1.netlify.app" target='_blank' >Live</a></button>
-            <button><a href="https://github.com/subhankarroy612/standing-army-2231" target='_blank' >View Code</a> </button>
+            <button><a href="https://github.com/subhankarroy612/Geek-Buying-Clone" target='_blank' >View Code</a> </button>
           </div>
         </div>
       </div>

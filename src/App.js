@@ -1,15 +1,20 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import AllRoutes from './pages/AllRoutes';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Project from './pages/Project';
 import Skills from './pages/Skills';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <AllRoutes />
-      {/* <Skills/> */}
+      <Home />
+      <About />
+      <Skills />
+      <Project />
+      <Contact />
     </div>
   );
 }
