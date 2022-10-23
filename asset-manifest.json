@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf5fa0b0.css",
+    "main.css": "/static/css/main.37ec9d3a.css",
     "main.js": "/static/js/main.c4c72691.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Geek-Buying.png": "/static/media/Geek-Buying.e42c40678c1022618a31.png",
     "static/media/Boat-lifestyle.png": "/static/media/Boat-lifestyle.2511d53583c67eccc16a.png",
     "index.html": "/index.html",
-    "main.cf5fa0b0.css.map": "/static/css/main.cf5fa0b0.css.map",
+    "main.37ec9d3a.css.map": "/static/css/main.37ec9d3a.css.map",
     "main.c4c72691.js.map": "/static/js/main.c4c72691.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf5fa0b0.css",
+    "static/css/main.37ec9d3a.css",
     "static/js/main.c4c72691.js"
   ]
 }
