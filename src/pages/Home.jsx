@@ -1,6 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
-
+import resume from '../images/resume.png'
 export default function Home() {
   return (
     <div id='home'>
@@ -10,7 +10,7 @@ export default function Home() {
         </div>
         <div id='homeText'>
           <h2>Hi There!</h2>
-          <h1>I'M SUBHANKAR ROY</h1>
+          <h1>I'M <span className='name1'>SUBHANKAR ROY</span></h1>
           <div id='typewriter'>
             <Typewriter
               loop
@@ -21,6 +21,10 @@ export default function Home() {
               delaySpeed={1000}
               words={["Web Developer.", "Full Stack Web Developer.", "MERN Stack Developer"]}
             />
+          </div>
+          <div style={{gap: '10px',display:'flex', justifyContent:'center', alignItems:'center'}}>
+            <img width='30px' height='30px' src={resume} alt="resume logo" />
+            <h2><a className='name1' target='_blank' href="https://drive.google.com/file/d/1N9dHJY8o54YHXhTfQYKGEIKOsIi2BtBe/view?usp=sharing">Resume</a></h2>
           </div>
         </div>
       </div>

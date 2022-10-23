@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div id='about'>
       <div>
-        <h1>ABOUT ME</h1>
+        <h1 className='name1'>ABOUT ME</h1>
         <div>
           <h2>Hello stranger! 👋, my name is SUBHANKAR ROY and I am a MERN Stack Developer, passionate about creating innovative projects that helps me enhance my skills.</h2>
           <br />

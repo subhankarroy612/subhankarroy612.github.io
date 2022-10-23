@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 
 * {
   font-family: 'Cairo', sans-serif;
@@ -7,20 +9,40 @@
 }
 
 #navbar {
+  width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 8px;
   text-align: center;
   align-items: center;
-  background-color: #2D3748;
-  color: white;
-  position: sticky;
+  background-color: transparent;
+  color: black;
+  position: fixed;
   top: 0px;
   z-index: 1000;
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.029) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.024) 0px 32px 16px;
+}
+
+.icons {
+  gap: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  padding-right: 15px;
 }
 
 #name {
-  padding-left: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+  font-family: 'Ephesis', cursive;
+  color: #cd5ff8;
+  padding-left: 8vw;
+}
+
+.name1 {
+  color: #cd5ff8;
+  text-decoration: none;
 }
 
 #container {
@@ -29,6 +51,7 @@
 
 #headers {
   display: flex;
+  padding-right: 5vw;
 }
 
 #headers>h2 {
@@ -37,7 +60,7 @@
 
 .link {
   text-decoration: none;
-  color: white;
+  color: #ffffd4;
 }
 
 #img {
@@ -47,10 +70,16 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
+
+  #name {
+    letter-spacing: 0px;
+    font-size: 35px;
+  }
+
   #img {
     display: block;
-    width: 40px;
+    width: 28px;
   }
 
   #navbar>div {
@@ -64,6 +93,7 @@
   #headers,
   #navbar {
     flex-direction: column;
+    font-size: small;
   }
 
   #headers {
@@ -79,10 +109,14 @@
 }
 
 #home {
-  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/23298a55526729.5988857400116.jpg);
+  background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg);
   min-width: 100%;
+  height: 100vh;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #typewriter {
@@ -125,6 +159,10 @@
   #homeText {
     margin-top: 5vh;
   }
+
+  #homeContainer>div>img {
+    width: 300px;
+  }
 }
 
 .projectText {
@@ -140,6 +178,8 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px 10px 10px 10px;
   margin-top: 8vh;
+  backdrop-filter: blur(10px);
+  background-color: rgba(8, 8, 6, 0.498);
 }
 
 .p1>div>img {
@@ -186,8 +226,8 @@
 
 .techStack {
   display: grid;
+  gap: 10px;
   grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
   margin-top: 20px;
 }
 
@@ -195,6 +235,7 @@
   width: 50px;
   padding: 10px;
   border-radius: 10px 10px 10px 10px;
+  background-color: rgba(128, 128, 128, 0.282);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -217,51 +258,61 @@
     margin-top: 5vh;
     grid-template-columns: repeat(3, 1fr);
   }
-  
-  .p1Btn{
+
+  .p1Btn {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
-  .projectUl{
+
+  .projectUl {
     font-size: medium;
   }
 
-  .p1>div>img{
+  .p1>div>img {
     height: 300px;
   }
 
 }
 
-#project{
-  margin-bottom: 10vh;
+#project {
+  background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg);
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding-top: 5vh;
+  padding-bottom: 20vh;
+  color: white;
 }
 
-#about{
+#about {
   background-image: url(https://getwallpapers.com/wallpaper/full/b/8/1/489068.jpg);
-  height: 74vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   color: white;
   padding-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#about>div>h1{
+#about>div>h1 {
   text-align: center;
 }
 
 
-#about>div{
+#about>div {
   padding-top: 8vh;
   width: 70%;
   margin: auto;
   text-align: justify;
+
 }
 
-#about>div{
-  background-color: rgba(0, 128, 128, 0.635);
-  border-radius: 10px 10px 10px 10px ;
+#about>div {
+  background-color: rgba(18, 29, 29, 0.756);
+  border-radius: 10px 10px 10px 10px;
   padding: 30px;
   backdrop-filter: blur(3px);
 
@@ -269,25 +320,58 @@
 
 @media screen and (max-width: 900px) {
 
-  #about>div>h1{
+  #about>div>h1 {
     font-size: 24px;
   }
 
-  #about>div>div>h2{
+  #about>div>div>h2 {
     font-size: 18px;
   }
 
-  #about{
+  #about {
     padding-bottom: 10vh;
   }
 }
 
-#skills{
+#skills {
   text-align: center;
+  background-image: url(https://wallpapertag.com/wallpaper/full/1/2/0/395160-most-popular-polygon-background-3840x2160-for-macbook.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 5vh;
 }
 
-#skills>div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.haba{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 50%;
+  gap: 20px;
+  margin: auto;
+}
+
+.haba>div>img{
+  width: 80px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius:10px 10px 10px 10px ;
+}
+
+.skillDes{
+  margin-top: 7vh;
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 900px) {
+
+  .haba{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+  .haba>img{
+    width: 50px;
+  }
+
 }
