@@ -280,7 +280,7 @@
   min-width: 100%;
   background-size: cover;
   background-position: center;
-  padding-top: 5vh;
+  padding-top: 10vh;
   padding-bottom: 20vh;
   color: white;
 }
@@ -291,7 +291,7 @@
   background-size: cover;
   background-position: center;
   color: white;
-  padding-top: 15vh;
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,19 +335,33 @@
 
 #skills {
   text-align: center;
-  background-image: url(https://wallpapertag.com/wallpaper/full/1/2/0/395160-most-popular-polygon-background-3840x2160-for-macbook.jpg);
-  background-size: cover;
-  background-position: center;
   color: white;
-  padding-top: 5vh;
+  padding-top: 10vh;
+  background-color: #0a0416;
 }
 
 .haba{
   display: grid;
   grid-template-columns: repeat(5,1fr);
-  width: 50%;
+  width: 60%;
   gap: 20px;
   margin: auto;
+  background-color: #5f0c808b;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.haba1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 60%;
+  gap: 10px;
+  margin: auto;
+  background-color: #5f0c808b;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .haba>div>img{
@@ -362,6 +376,14 @@
   margin-bottom: 5vh;
 }
 
+@media screen and (max-width: 1250px) {
+
+  .haba1{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
 @media screen and (max-width: 900px) {
 
   .haba{
@@ -370,8 +392,82 @@
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
+
+  .haba1{
+    grid-template-columns: repeat(1,1fr);
+  }
   .haba>img{
     width: 50px;
   }
 
+}
+
+.haba>div{
+  position: relative;
+  bottom: 0;
+  transition: all 0.3s ;
+}
+
+.haba>div:hover{
+  bottom: 10px;
+}
+
+#contact{
+  background-color:  #0a0416;
+  text-align: center;
+  padding: 10vh;
+  color: white;
+}
+
+#contactDetails{
+  margin-top: 15vh;
+  width: 50%;
+}
+
+#contact>div{
+  margin: auto;
+  display: flex;
+}
+
+#contactDetails>div{
+  text-align: start;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 30px;
+}
+
+#gif{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gif>img{
+  width: 70%;
+  border-radius: 10px;
+}
+
+#patent{
+  font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+
+  #contact>div{
+    flex-direction: column;
+  }
+
+  #contactDetails>div>h2{
+    font-size: 15px;
+  }
+
+  #contactDetails>div>img{
+    height: 20px;
+    width: 20px;
+  }
+
+  #patent{
+    font-style: italic;
+    font-size: small;
+  }
 }

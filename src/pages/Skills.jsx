@@ -31,7 +31,7 @@ export default function Skills() {
       </div>
 
       <h1 className='skillDes'>Backend</h1>
-      <div className='haba' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
+      <div className='haba haba1' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
         <div>
           <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="nodeJS logo" />
           <h4>NodeJS</h4>
@@ -47,7 +47,7 @@ export default function Skills() {
       </div>
 
       <h1 className='skillDes'> <span className='name1'>Tools</span> I use</h1>
-      <div className='haba' style={{ width: '34%', gap: '5vw', margin: 'auto' }}>
+      <div className='haba haba1' style={{ width: '34%', gap: '5vw', margin: 'auto'}}>
         <div>
           <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="vscode logo" />
           <h4>VS Code</h4>
