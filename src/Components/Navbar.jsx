@@ -44,7 +44,7 @@ export default function Navbar() {
             </div>
             <div className='icons'>
                 <img width='20px' height='20px' src={resume} alt="resume logo" />
-                <h2><a style={{ 'textDecoration': 'none', color: '#cd5ff8' }} target='_blank' href="https://drive.google.com/file/d/1zQUMMCjJ3n9Hd4GmIzLjuf25Rqagl9t9/view?usp=share_link">Resume</a></h2>
+                <h2><a style={{ 'textDecoration': 'none', color: '#cd5ff8' }} target='_blank' href="https://drive.google.com/file/d/1N9dHJY8o54YHXhTfQYKGEIKOsIi2BtBe/view?usp=sharing">Resume</a></h2>
             </div>
         </div>
     </div>)
