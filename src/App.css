@@ -471,3 +471,23 @@
     font-size: small;
   }
 }
+
+#stats{
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+#stats>img{
+
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 1430px) {
+  #stats{
+    flex-direction: column;
+  }
+
+}
