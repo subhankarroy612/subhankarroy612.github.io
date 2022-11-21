@@ -8,6 +8,11 @@ export default function Contact() {
 
       <div>
         <div id='contactDetails'>
+
+          <div style={{width:'200px'}}>
+            <img style={{background:'white', borderRadius:'50px'}} width='50px' height='50px' src="https://cdn-icons-png.flaticon.com/512/455/455604.png" alt="number logo" />
+            <h2 >+919875647112</h2>
+          </div>
           <div>
             <img width='50px' height='50px' src="https://cdn-icons-png.flaticon.com/512/526/526901.png" alt="email logo" />
             <h2><a style={{ paddingLeft:'10px' ,textDecoration: 'none', color: 'white' }} target='_blank' href="mailto:subhankarroy612@gmail.com">subhankarroy612@gmail.com</a></h2>
