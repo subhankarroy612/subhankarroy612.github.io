@@ -1,0 +1,73 @@
+{
+  "autoPlay": true,
+  "background": {
+    "size":"",
+    "position":"",
+    "repeat":"",
+    "color": {
+      "value": "#000"
+    }
+  },
+  "fullScreen": {
+    "enable": true,
+    "zIndex": -1
+  },
+  "interactivity": {
+    "detectsOn": "window",
+    "events": {
+      "onClick": {
+        "enable": false,
+        "mode": []
+      },
+      "onHover": {
+        "enable": true,
+        "parallax": {
+          "enable": false,
+          "force": 2,
+          "smooth": 10
+        }
+      },
+      "resize": false
+    },
+    "modes": {
+      "push": {
+        "quantity": 5
+      },
+      "repulse": {
+        "distance": 900
+      }
+    }
+  },
+  "particles": {
+    "number": {
+      "value": 40,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "links": {
+      "enable": true,
+      "distance": 200
+    },
+    "move": {
+      "enable": true,
+      "speed": {
+        "min": 1,
+        "max": 5
+      }
+    },
+    "opacity": {
+      "value": {
+        "min": 0.3,
+        "max": 0.7
+      }
+    },
+    "size": {
+      "value": {
+        "min": 1,
+        "max": 3
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import { Particle } from './components/P_demo';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
@@ -9,11 +10,12 @@ import Skills from './pages/Skills';
 function App() {
   return (
     <div className="App">
+      <Particle/>
       <Navbar />
       <Home />
       <About />
-      <Skills />
       <Project />
+      <Skills />
       <Contact />
     </div>
   );

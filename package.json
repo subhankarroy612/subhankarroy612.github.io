@@ -10,7 +10,7 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "framer-motion": "^7.5.3",
+    "framer-motion": "^7.6.14",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-github-calendar": "^3.3.4",
@@ -18,7 +18,10 @@
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-simple-typewriter": "^4.0.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "react-tsparticles": "^2.5.3",
+    "tsparticles": "^2.5.3",
+    "tsparticles-slim": "^2.5.3"
   },
   "scripts": {
     "predeploy": "npm run build",

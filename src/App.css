@@ -110,7 +110,7 @@
 
 #home {
   padding-top: 10vh;
-  background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg);
+  /* background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg); */
   min-width: 100%;
   background-size: cover;
   background-position: center;
@@ -276,7 +276,7 @@
 }
 
 #project {
-  background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg);
+  /* background-image: url(https://www.teahub.io/photos/full/212-2124160_4uv0t9-blue-polygon-wallpaper-4k.jpg); */
   min-width: 100%;
   background-size: cover;
   background-position: center;
@@ -286,7 +286,7 @@
 }
 
 #about {
-  background-image: url(https://getwallpapers.com/wallpaper/full/b/8/1/489068.jpg);
+  /* background-image: url(https://getwallpapers.com/wallpaper/full/b/8/1/489068.jpg); */
   height: 100vh;
   background-size: cover;
   background-position: center;

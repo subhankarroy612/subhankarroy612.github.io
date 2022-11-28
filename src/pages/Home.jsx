@@ -1,5 +1,6 @@
 import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
+import cv from '../images/Subhankar_Roy_Resume.pdf'
 import resume from '../images/resume.png'
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           </div>
           <div style={{gap: '10px',display:'flex', justifyContent:'center', alignItems:'center'}}>
             <img width='30px' height='30px' src={resume} alt="resume logo" />
-            <h2><a className='name1' target='_blank' href="https://drive.google.com/file/d/1N9dHJY8o54YHXhTfQYKGEIKOsIi2BtBe/view?usp=sharing">Resume</a></h2>
+            <h2><a className='name1' target='_blank' rel='noreferrer' href={cv} download >Resume</a></h2>
           </div>
         </div>
       </div>
