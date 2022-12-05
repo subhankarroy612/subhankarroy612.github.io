@@ -1,6 +1,7 @@
 import React from 'react'
 import boat from "../images/Boat-lifestyle.png";
 import geek from "../images/Geek-Buying.png";
+import rel from "../images/reliance.png";
 import { motion } from 'framer-motion'
 
 export default function Project() {
@@ -86,6 +87,34 @@ export default function Project() {
             <div className='p1Btn'>
               <button><a href="https://enchanting-hamster-bb6be1.netlify.app" target='_blank' >Live</a></button>
               <button><a href="https://github.com/subhankarroy612/Geek-Buying-Clone" target='_blank' >View Code</a> </button>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+
+      <motion.div initial='hidden' whileInView='visible' variants={slideLeft} >
+        <div className='p1'>
+
+          <div>
+            <img src={rel} alt="Boat project image" />
+            <h2 className='projectText name1'>Tech Stack</h2>
+            <div className='techStack'>
+              <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="" />
+              <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="" />
+            </div>
+          </div>
+
+          <div>
+            <h2 className='projectText name1'>Reliance-Digital Clone</h2>
+            <li className='projectUl'>Reliance is one of the most profitable companies in India, the largest publicly traded company in India by market capitalisation.</li>
+            <li className='projectUl'>Users can login and SignUp</li>
+            <li className='projectUl'>Users can add product to Cart</li>
+            <li className='projectUl'>User can see the products in the Home Page</li>
+            <div className='p1Btn'>
+              <button><a href="https://reliance-app.netlify.app" target='_blank' >Live</a></button>
+              <button><a href="https://github.com/meshiv5/plastic-zephyr-2114" target='_blank' >View Code</a> </button>
             </div>
           </div>
         </div>
