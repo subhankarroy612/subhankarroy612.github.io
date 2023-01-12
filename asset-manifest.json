@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.403f6124.css",
-    "main.js": "/static/js/main.bfd424b5.js",
+    "main.css": "/static/css/main.cb47c63c.css",
+    "main.js": "/static/js/main.b6b00a7a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Geek-Buying.png": "/static/media/Geek-Buying.e42c40678c1022618a31.png",
     "static/media/reliance.png": "/static/media/reliance.5b0664be2b31dcdfe2b4.png",
@@ -9,12 +9,12 @@
     "static/media/cronometer.png": "/static/media/cronometer.6a5ccd78222e699a199f.png",
     "static/media/Subhankar_Roy_Resume.pdf": "/static/media/Subhankar_Roy_Resume.0f9f977ebd7e4425ad36.pdf",
     "index.html": "/index.html",
-    "main.403f6124.css.map": "/static/css/main.403f6124.css.map",
-    "main.bfd424b5.js.map": "/static/js/main.bfd424b5.js.map",
+    "main.cb47c63c.css.map": "/static/css/main.cb47c63c.css.map",
+    "main.b6b00a7a.js.map": "/static/js/main.b6b00a7a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.403f6124.css",
-    "static/js/main.bfd424b5.js"
+    "static/css/main.cb47c63c.css",
+    "static/js/main.b6b00a7a.js"
   ]
 }
