@@ -60,7 +60,7 @@ export default function Project() {
           <div>
             <h2 className='projectText name1'>Cronometer Clone</h2>
             <li className='projectUl'>Cronometer is a fitness tracking app which helps users to have calculated calories and proper nutrition.</li>
-            <li className='projectUl'>Users can login and SignUp</li>
+            <li className='projectUl'>Users can login and signup</li>
             <li className='projectUl'>Users can add Food to the Diary</li>
             <li className='projectUl'>User can see consumed calories in Dashboard</li>
             <div className='p1Btn'>
@@ -90,7 +90,7 @@ export default function Project() {
           <div>
             <h2 className='projectText name1'>Reliance-Digital Clone</h2>
             <li className='projectUl'>Reliance is one of the most profitable companies in India, the largest publicly traded company in India by market capitalisation.</li>
-            <li className='projectUl'>Users can login and SignUp</li>
+            <li className='projectUl'>Users can login and signup</li>
             <li className='projectUl'>Users can add product to Cart</li>
             <li className='projectUl'>User can see the products in the Home Page</li>
             <div className='p1Btn'>
@@ -119,7 +119,7 @@ export default function Project() {
             <h2 className='projectText name1'>Boat-LifeStyle Clone</h2>
             <li className='projectUl'>BoAt is an India-based consumer electronics brand established in 2015 that markets earphones, headphones stereos, travel chargers and premium rugged cables.</li>
             <li className='projectUl'>Users and add product to the Cart</li>
-            <li className='projectUl'>Users can login and SignUp</li>
+            <li className='projectUl'>Users can login and signup</li>
             <div className='p1Btn'>
               <button><a href="https://subhankar-boat-lifestyle.netlify.app" target='_blank' >Live</a></button>
               <button><a href="https://github.com/subhankarroy612/Boat-Lifestyle-Clone/tree/main/boat-lifestyle" target='_blank' >View Code</a> </button>
@@ -144,7 +144,7 @@ export default function Project() {
           <div>
             <h2 className='projectText name1'>Geek-Buying Clone</h2>
             <li className='projectUl'>GeekBuying found at GeekBuying.com is an online reseller of all sorts of household and electronic gadgets including smartphones and tablets, wearable devices, computers, car accessories and hobby toys.</li>
-            <li className='projectUl'>Users can login and SignUp</li>
+            <li className='projectUl'>Users can login and signup</li>
             <li className='projectUl'>User can see the products in the Home Page</li>
             <div className='p1Btn'>
               <button><a href="https://enchanting-hamster-bb6be1.netlify.app" target='_blank' >Live</a></button>

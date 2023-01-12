@@ -64,8 +64,7 @@ export default function Skills() {
 
       <h1 className='skillDes'>My <span className='name1'>Statistics</span></h1>
       <div id='stats'>
-        <img src="https://camo.githubusercontent.com/850da986bf627ad3cc0d82b62ab0b9dd0b327a109835a561db5f47e893a93503/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d73756268616e6b6172726f793631322673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374" alt="stat" />
-        <img src="https://camo.githubusercontent.com/d703b28e19fb0d4ea5c3d6037a1c4311d1239864c898e0159ee18a1f63279870/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d73756268616e6b6172726f793631322673686f775f69636f6e733d74727565266c6f63616c653d656e" alt="stat" />
+        <img src="https://github-stats-alpha.vercel.app/api?username=subhankarroy612" alt="stat" />
       </div>
 
       <h1 className='skillDes'>Days I <span className='name1'>Code</span></h1>
