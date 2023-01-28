@@ -43,6 +43,37 @@ export default function Project() {
       <motion.div initial='hidden' whileInView='visible' variants={slideLeft} >
         <div className='p1'>
           <div>
+            <img src='https://i.imgur.com/wPzY6FG.png' alt="socialMedia project image" />
+            <h2 className='projectText name1'>Tech Stack</h2>
+            <div className='techStack'>
+              <img src="https://cdn-icons-png.flaticon.com/512/1199/1199124.png" alt="javascript" />
+              <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="css" />
+              <img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="react" />
+              <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="nodejs" />
+              <img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" alt="html" />
+              <img src="https://pbs.twimg.com/profile_images/1452637606559326217/GFz_P-5e_400x400.png" alt="mongoDB" />
+              <img src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" alt="express" />
+              <img src="https://repository-images.githubusercontent.com/347723622/92065800-865a-11eb-9626-dff3cb7fef55" alt="redux" />
+            </div>
+          </div>
+
+          <div>
+            <h2 className='projectText name1'>Social Studio</h2>
+            <li className='projectUl'>This app actually helps people to connect with strangers or create new connections. People get to see what is happening around the World at their own comfort.</li>
+            <li className='projectUl'>Authentication and Authorization is done using backend.</li>
+            <li className='projectUl'>User can post Images, Like, Dislike and Comment.</li>
+            <li className='projectUl'>User can see other people and follow to make new connections.</li>
+            <div className='p1Btn'>
+              <button><a href="https://spiffy-marigold-6ca51b.netlify.app/" target='_blank' >Live</a></button>
+              <button><a href="https://github.com/subhankarroy612/SOCIAL_STUDIO" target='_blank' >View Code</a> </button>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div initial='hidden' whileInView='visible' variants={slideLeft} >
+        <div className='p1'>
+          <div>
             <img src={crono} alt="Boat project image" />
             <h2 className='projectText name1'>Tech Stack</h2>
             <div className='techStack'>
@@ -60,7 +91,7 @@ export default function Project() {
           <div>
             <h2 className='projectText name1'>Cronometer Clone</h2>
             <li className='projectUl'>Cronometer is a fitness tracking app which helps users to have calculated calories and proper nutrition.</li>
-            <li className='projectUl'>Users can login and signup</li>
+            <li className='projectUl'>Authentication and Authorization is done using backend.</li>
             <li className='projectUl'>Users can add Food to the Diary</li>
             <li className='projectUl'>User can see consumed calories in Dashboard</li>
             <div className='p1Btn'>
